@@ -1,5 +1,5 @@
-
 Personal Portfolio
+
 Welcome to my personal portfolio website! This site showcases my projects, skills, and experience in a clean and professional format.
 
 Live Demo
@@ -20,5 +20,7 @@ html
 css 
 
 Vercel for deployment
+
+
 Contact
 Feel free to reach out via email or social media links provided on the site.
