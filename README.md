@@ -23,4 +23,5 @@ Vercel for deployment
 
 
 Contact
+
 Feel free to reach out via email or social media links provided on the site.
