@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BETTY CHESELEMI'S Portfolio</title>
+  
+  
+  <link rel="stylesheet" href="portforlio.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>BETTY CHESELEMI</h1>
+      
+      <p>Advancing Tech for Climate Innovation</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I’m someone who truly loves working with technology. I enjoy learning how things work, solving problems, and building digital solutions that make a difference. What drives me most is the belief that tech can do more than just improve lives it can help heal the planet.
+
+I'm especially passionate about using technology to address climate challenges. Whether it’s through clean energy, data driven sustainability, or more efficient systems, I want to be part of the movement that uses innovation to protect the environment and build a better future.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>MY FIRST Project</h3>
+      <img src="image/image1.jfif" alt="">
+      <p>This project explores how technology can enhance sustainable waste management through vermicomposting the process of using earthworms to convert organic waste into high-quality compost.
+
+Using sensors, microcontrollers (like Arduino or Raspberry Pi), and IoT connectivity, this smart system monitors key environmental conditions such as moisture, temperature, and pH levels within the compost bin. When the system detects suboptimal conditions for the worms or composting efficiency, it automatically adjusts settings (e.g., moisture levels via a water pump) or sends real-time alerts to the user via a mobile app or dashboard.
+
+The goal is to make vermicomposting more accessible, efficient, and scalable  especially for urban households, schools, or small farms by reducing manual maintenance and ensuring a healthier composting process.
+
+This project sits at the intersection of agritech, environmental sustainability, and automation, reflecting my passion for using tech to solve climate and waste management challenges.
+</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email me at <a href="mailto:you@example.com">cheselemib@gmail.com</a></p>
+    <p>phone number <a href="07********">0799943331</a></p>
+</section>
+
+  <footer>
+    <p>&copy; 2025 BETTY CHESELEMI</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(link.getAttribute('href'))
+            .scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
